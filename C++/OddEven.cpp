@@ -2,6 +2,7 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <cmath>
+#include <windows.h>
 
 using namespace std;
 int main()
