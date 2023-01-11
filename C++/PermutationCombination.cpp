@@ -4,8 +4,8 @@
 using namespace std;
 int main()
 {
-  system("CLS");
- system("Color 0A");  
+system("CLS");
+system("Color 0A");  
  int a;
  long factorial = 1.0;
  cout<<"Enter the number: ";
