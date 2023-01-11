@@ -14,6 +14,6 @@ int main()
  cin>>num;
  if(isnan(num)) { cout<<"Given number is not a valid integer."; exit(0); }
  calc=num%2;
- if(calc == 0) { cout<<"Number is Even."; } else { cout<<"Number is Odd."; }\
-getch();
+ if(calc == 0) { cout<<"Number is Even."; } else { cout<<"Number is Odd."; }
+ getch();
 }    
