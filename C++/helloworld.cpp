@@ -1,7 +1,10 @@
 #include <iostream>
+#include <conio.h>
 using namespace std;
 int main()
 {
- cout<<"Hello World";
- return 0; 
+ system("CLS");
+ system("Color 0A");  
+ cout<<"Hello World"; 
+getch(); 
 }

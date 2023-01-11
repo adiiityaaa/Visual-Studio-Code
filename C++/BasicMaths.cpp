@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
-#include <windows.h>
+#include <conio.h>
+#include <stdlib.h>
 
 using namespace std;
 int main()
@@ -11,7 +12,7 @@ int main()
  float div,a,b;
  cout<<"\nPlease enter the first number:";
  cin>>a;
- if(isnan(a)) { cout<<"First number is not a number."; exit(1); }
+ if(isnan(a)) { cout<<"First number is not a number."; exit(0); }
  cout<<"\nPlease enter the second number:";
  cin>>b;
  if(isnan(b)) { cout<<"Second number is not a number."; return 0; }
@@ -27,5 +28,5 @@ int main()
  cout<<"\nMultiplication of numbers: "<<mult;
  cout<<"\nDivision of numbers: "<<div;
  cout<<"\nThanks for using Basic Mathematics.";
- return 0; 
+getch(); 
 }

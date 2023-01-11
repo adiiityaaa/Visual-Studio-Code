@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <windows.h>
+#include <conio.h>
 
 using namespace std;
 int main()
@@ -78,4 +78,6 @@ int main()
  break;
  default: cout<<"Please choose a valid option.";
  break;    
-}}
+} 
+getch();
+}
